@@ -1,8 +1,35 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2867
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
 
-\f0\fs24 \cf0 console.log("Portfolio Loaded");}
+header{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+nav{
+    background:#374151;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+}
+
+section{
+    padding:30px;
+}
+
+footer{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
